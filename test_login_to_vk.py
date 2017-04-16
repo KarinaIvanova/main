@@ -33,7 +33,7 @@ class TestLoginToVk(TestCase):
         self.base_url = 'https://vk.com/'
 
     def test_with_right_login(self):
-        'Checks log in with correct login and password. Expects \'Моя странца\' '
+        'Checks log in with correct login and password. Expects \'Моя страница\' '
         LogInToVk.log_in_to_vk(PageConfig, self.driver, self.base_url)
         try:
             element = WebDriverWait(self.driver, 10).until(

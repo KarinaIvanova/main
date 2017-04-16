@@ -11,3 +11,4 @@ class LoginFormLocators(object):
 class SearchResultLocators(object):
 
     my_page_xpath = '//*[@id="l_pr"]/a/span/span[3]'
+    unable_to_log_in = '//*[@id="login_message"]/div/div/b[1]'

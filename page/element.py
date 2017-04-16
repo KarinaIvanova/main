@@ -10,8 +10,8 @@ class ChromeConfig(object):
 class PageConfig(object):
 
     '''Enter here your login and password to https://vk.com/'''
-    login_vk = 'e-mail'
-    password_vk = 'password'
+    login_vk = 'your_email@mail.ru'
+    password_vk = 'your_password'
 
 
 #PageConfigWrong is class for wrong login and password
